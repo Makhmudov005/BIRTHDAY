@@ -1,0 +1,106 @@
+  @font-face {
+    font-family: 'Architects Daughter';
+    src:url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+  }
+
+  html{
+    font-family: 'Architects Daughter';
+    font-size:30px;
+    background: pink;
+    scroll-behavior: smooth;
+  }
+
+  html.index{
+    margin-left:200px;
+
+  }
+  
+  html.subpage{
+    font-size:18px;
+  }
+
+  img.BaitAndSwitch_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+  
+  p.main{
+    font-size:15px;
+    padding-top:20px;
+  }
+
+
+
+  /* The sidebar menu */
+  .sidebar {
+  height: 100%;
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* sets absolute position */
+  z-index: 2; /* Stay on top of other pages */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #C8A2C8; /* Black */
+  padding-top: 20px;
+  overflow: hide;
+  }
+
+  .sidebar p{
+    padding-top: 10%;
+    padding-right: 15px;
+    padding-bottom: 10;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+
+  }
+
+  /* The navigation menu links */
+  .sidebar a {
+  padding-top: 10%;
+  padding-right: 15px;
+  padding-bottom: 10%;
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  }
+
+
+  .sidebar a:hover {
+  color: #68ff00;
+  }
+
+  /* Style page content */
+
+  div.main{
+      line-height: 1.6;
+      margin-left: 160px; /* Same as the width of the sidebar */
+      padding: 0px 10px;
+      height: 100vh;
+
+  }
+
+  
+
+  .header_shield_left {
+    left:50px;
+    
+    
+  }
+
+  .header_shield_right {
+    right: "50";
+
+    
+  }
+  
+
